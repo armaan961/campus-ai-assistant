@@ -1,0 +1,23 @@
+# ── Environment files (NEVER commit secrets) ─────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── SQLite database ───────────────────────────────────────────────────────────
+*.db
+*.db-shm
+*.db-wal
+
+# ── Node ──────────────────────────────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+
+# ── File uploads (user content) ───────────────────────────────────────────────
+backend/uploads/
+
+# ── Build output ──────────────────────────────────────────────────────────────
+frontend/dist/
+
+# ── OS files ─────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
